@@ -2,7 +2,7 @@
 function zf_ValidateAndSubmit(){
 		if(zf_CheckMandatory()){
 			if(zf_ValidCheck()){
-				if(isSalesIQIntegrationEnabled){
+				if(isSalesIQIntegrationEnabled){ 
 					zf_addDataToSalesIQ();
 				}
 				return true;
